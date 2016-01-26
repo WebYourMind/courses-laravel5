@@ -1,0 +1,36 @@
+html,body{
+    height:100%;
+    margin:0;
+
+}
+
+.welcome{
+	/*background-color: red; filter:alpha(opacity=60);*/
+	background-image: url('../img/pizza-maker.png');
+	height: 100%;
+	width: 100%;
+	/*background-size: 100% 100%;*/
+    background-repeat: no-repeat;
+	background-position:50% top;
+}
+
+.enter-pizzeria{
+	padding-top: 200px;
+	padding-bottom: 250px;
+	font-family: 'Lobster', cursive;
+}
+
+.highlight{
+	background-color:rgba(255,255,255,0.5);	
+}
+
+.highlight p{
+	font-size: 4em;
+	padding: 10px;
+	text-align: center;
+}
+
+.highlight div{
+	padding: 10px;
+	text-align: center;
+}
